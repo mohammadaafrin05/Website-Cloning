@@ -1,0 +1,286 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.navbar{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:60px;
+    background-color: black;
+    color:white;
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image: url("https://www.shutterstock.com/image-vector/chattogram-bangladesh-april-24-2023-260nw-2292992631.jpg");
+    background-size: cover;
+    height:50px;
+    width:100%;
+}
+.logo:hover,.nav-address:hover{
+    border:1.5px solid white;
+    cursor: pointer;
+}
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+.box-1{
+    color:#cccccc;
+    font-size:0.8rem ;
+    margin-left: 15px;
+}
+.box-2{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.nav-searchbar{
+    display:flex;
+    width:620px;
+    height:40px;
+    background-color: white;
+    border-radius: 4px;
+}
+.nav-searchbar:hover{
+    border:2px solid orange;
+}
+.search-selct{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.search-input{
+    width:100%;
+    font-size:1rem;
+    border:none;
+    margin-left: 2px;
+}
+.search-icon{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width:45px;
+    background-color:#febd68;
+   font-size: 1.2rem;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   color:black;
+}
+.nav-box-4{
+    display:flex;
+    width:50px;
+    height:30px;
+    background-color:black;
+}
+.usa-flag{
+    width:50%;
+    height:20px;
+    margin-top:5px;
+}
+.box4-select{
+    background-color:black;
+    color:white;
+    border:none;
+}
+.box5-pg{
+    font-size:0.7rem;
+}
+.box5-pg2{
+    background-color: black;
+    color:white;
+    font-size: 0.85rem;
+    font-weight :800px;
+    margin-right:15px;
+    border:none;
+}
+.nav-box5:hover{
+    border:1.5px solid white;
+    cursor: pointer;
+}
+
+.cart{
+    display:flex;
+}
+.cart-pg{
+    font-size: 0.65rem;
+    margin-top: 3px;
+}
+.panel{
+    height: 40px;
+    background-color:#222f3d;
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content: center;
+}
+.panel-options{
+    width:75%;
+    
+}
+.panel-links{
+    display: inline;
+    margin-left: 40px;
+}
+.panel-deals{
+    font-weight: 700;
+}
+.panel-all{
+    margin-right:20px;
+}
+.Hero-sec{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG_22/Varun/24/JanART/LA/Header_20/Grand_Appliances_Sale_1242X1000.gif");
+    height:395px;
+    display:flex;
+    align-items: end;
+}
+.hero-pg{
+   background-color:white;
+   width:80%;
+   height:40px;
+   font-size: 0.85rem;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 25px;
+}
+.hero-sec-al{
+    color: #007185;
+}
+.content{
+    position:relative;
+    background-color: #e4dfdf;
+    height:500px;
+    margin-top: 20px;
+}
+ .content-women{
+    position:absolute;
+    background-color:white;
+    width:98%;
+    height:90%;
+    margin-top: 25px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ .content-img{
+    width: 18%;
+    height:380px;
+    margin-inline: 10px;
+    background-position:cover;
+}
+.content-img:hover{
+    border:1px solid rgba(254, 75, 75, 0.818);
+    border-radius: 15px;
+    cursor:pointer;
+}
+.content-hdng{
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}  
+.Hero-sec2{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img21/OHL_HMT/stores/eng/SPCnVPC.jpg");
+    background-position: cover;
+    height:350px;
+    display:flex;
+    align-items: end;
+    margin-top:20px;
+}
+.footer{
+    background-color: #324051;
+    height:550px;
+    margin-inline: 5px;
+    margin-top:20px;
+}
+.footer-hdng{
+    background-color:#131c28;
+    width:100%;
+    height:40px;
+    font-size: 0.85rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-hdng:hover{
+    border:1px #324051;
+    text-decoration: underline;
+}
+  .sub-footer{
+    background-color: #222f3d;
+    width:100%;
+    height:270px;
+    display: flex;
+    justify-content: space-evenly;
+
+} 
+.b1{
+    color:white;
+    margin-top: 40px;
+}
+.footer-pg{
+    margin-top:5px;
+    font-size: 0.8rem;
+}
+.footer-pg:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer-h3{
+    margin-bottom: 10px;
+}  
+.sub-footer-2{
+    width:100%;
+    height:120px;
+    background-color: #222f3d ;
+
+}
+
+.sf-b1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.sf2-logo{
+    width:80px;
+    height:30px;
+    margin-right:20px;
+    margin-top:10px;
+}
+.sf2-b2{
+  width:80%;
+  height:50px;
+  background-color: #222f3d;
+  color:white;
+  margin-top: 30px;
+  margin-left: 160px;
+  display:flex;
+  gap:10px;
+  justify-content: center;
+}
+.sf2-pg:hover{
+    text-decoration: underline;
+}
+.sf3{
+    color:#757171;
+    text-align: center;
+    margin-top: 30px;
+}
+.sf3-pg{
+    margin-left:15px ;
+}
+.sf3-pg:hover{
+    text-decoration: underline;
+}
+.pg{
+    margin-top:10px;
+}
